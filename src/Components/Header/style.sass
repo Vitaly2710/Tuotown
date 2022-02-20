@@ -1,0 +1,115 @@
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+
+$app-background-color: rgb(170, 26, 26)
+
+.header
+  padding: 0px 5px 0px 5px
+  background: rgba(33, 33, 33, 0.8)
+  backdrop-filter: blur(11px)
+  .header_container
+    max-width: 1200px
+    margin: 0 auto
+    display: grid
+    grid-template-columns: 242px 146px 113px
+    justify-content: space-between
+    padding-top: 18px
+    .header_contact
+      display: grid
+      grid-template-columns: 23px 23px 138px
+      justify-content: space-between
+      margin-top: 7px
+      position: relative
+    .header_phone
+      position: absolute
+    .header_menu
+      background-image: url("../assets/headerImg/Group 22.png")
+      width: 23px
+      height: 23px
+      cursor: pointer
+    .header_location
+      background-image: url("../assets/headerImg/map pin.png")
+      height: 23px
+      width: 23px
+      cursor: pointer
+    .header_mainNumber
+      font-family: 'Montserrat', Medium, serif
+      font-size: 20px
+      color: #FFFFFF
+
+    .header_wrapperForLogo
+      background-image: url("../assets/headerImg/WhatsApp Image 2021-07-04 at 11.45 1.svg")
+      width: 146px
+      height: 35px
+      margin-bottom: 18px
+    .header_basket
+      background-image: url("../assets/headerImg/header icon.png")
+      width: 18px
+      height: 23px
+      cursor: pointer
+      background-repeat: no-repeat;
+      background-position: center;
+    .header_mail
+      background-image: url("../assets/headerImg/mail.png")
+      width: 23px
+      height: 23px
+      cursor: pointer
+    .header_search
+      background-image: url("../assets/headerImg/search.png")
+      width: 23px
+      height: 23px
+      cursor: pointer
+    .header_order
+      display: grid
+      grid-template-columns: 18px 23px 23px
+      justify-content: space-between
+      margin-top: 7px
+    .header_contact
+      .header_basket
+        position: absolute
+        display: none
+
+
+@media (max-width: 768px)
+  .header
+    padding-left: 15px
+    padding-right: 15px
+    .header_container
+      max-width: 768px
+
+@media (max-width: 550px)
+  .header
+    .header_container
+      grid-template-columns: 122px 100px
+      padding-top: 10px
+      .header_order
+        display: none
+      .header_wrapperForLogo
+        width: 100px
+        height: 24px
+        background-size: cover
+        margin-bottom: 9px
+      .header_contact
+        grid-template-columns: 24px 24px 24px
+        margin-top: 0px
+      .header_location
+        display: none
+      .header_mainNumber
+        display: none
+      .header_phone
+        display: block
+        background-image: url("../assets/headerImg/header icon.png")
+        width: 24px
+        height: 24px
+        position: relative
+        cursor: pointer
+      .header_basket
+        display: block!important
+        background-repeat: no-repeat
+        width: 24px
+        height: 24px
+        position: relative!important
+        cursor: pointer
