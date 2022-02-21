@@ -198,27 +198,79 @@ $colorHover: '#FF0000'
     color: #FFFFFF
     transform: translate(35px, 2px)
 
+.main_line
+  width: 100%
+  opacity: 0.1
+  border: 1px solid #FFFFFF
+  margin-top: 60px
+
+.main_newOrPopular
+  max-width: 1200px
+  margin: 0 auto
+  .main_choose
+    display: grid
+    max-width: 300px
+    grid-template-columns: 1fr 1fr
+    margin: 60px auto 0px
+    button
+      color: #FFFFFF
+      border: none
+      background: transparent
+      font-family: 'Montserrat', SemiBold
+      font-size: 17px
+      line-height: 42px
+      text-transform: uppercase
+      opacity: 0.5
+      position: relative
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.main_containerForKnifes
+  max-width: 1200px
+  margin: 60px auto 0px
+  padding-left: 5px
+  padding-right: 5px
+  .main_informationPartOne
+    max-width: 1053px
+    display: grid
+    grid-template-columns: 300px 672px
+    justify-content: space-between
+    .main_imageInPartOne
+      background-image: url("../assets/mainImg/Rectangle 36.png")
+      height: 289px
+    .main_textInPartOne
+      color: #FFFFFF
+      h2
+        font-family: 'Jura', Medium
+        font-weight: 500
+        font-size: 35px
+        line-height: 42px
+      p
+        font-family: 'Montserrat', Regular, sans-serif
+        font-size: 16px
+        line-height: 22px
+        margin-top: 50px
+  .main_informationPartTwo
+    max-width: 1200px
+    display: grid
+    grid-template-columns: 817px 300px
+    justify-content: space-between
+    margin-top: 40px
+    .main_textInPartTwo
+      color: #FFFFFF
+      p
+        font-family: 'Montserrat', Regular
+        font-size: 16px
+        line-height: 22px
+        margin-bottom: 20px
+      h2
+        margin-top: 43px
+        font-family: 'Jura', Medium
+        font-weight: 500
+        font-size: 35px
+        line-height: 42px
+    .main_imageInPartTwo
+      background-image: url("../assets/mainImg/Rectangle 39.png")
+      height: 362px
 
 @media (max-width: 1200px)
   .main_goods
@@ -228,6 +280,28 @@ $colorHover: '#FF0000'
     margin: 80px auto 0px
     .main_collectionOfTuoTown
       margin-bottom: 52px
+  .main_containerForKnifes
+    max-width: 630px
+    margin: 0 auto
+    .main_informationPartOne
+      grid-template-columns: 300px 300px
+      padding-top: 60px
+      .main_imageInPartOne
+        height: 302px
+      .main_textInPartOne
+        max-width: 300px
+        margin-top: 78px
+        p
+          margin-top: 25px
+          color: #ADACAC
+    .main_informationPartTwo
+      grid-template-columns: 300px 300px
+      .main_imageInPartTwo
+        background-image: url("../assets/mainImg/Rectangle 77.png")
+        height: 302px
+      .main_textInPartTwo
+        p
+          color: #ADACAC
 
 @media (max-width: 768px)
   .main_wrapperOfTypes
