@@ -1,0 +1,89 @@
+$colorHover: '#FF0000'
+
+.main
+  background-color: #373737
+  .main_container
+    max-width: 1200px
+    margin: 0 auto
+    padding-top: 60px
+
+.main_wrapperOfTypes
+  max-width: 1021px
+  margin: 0 auto
+  display: grid
+  grid-template-columns: 1fr 1fr 1fr 1fr
+  padding-right: 5px
+  padding-left: 5px
+  p
+    font-family: 'Montserrat'
+    font-style: normal
+    font-weight: 500
+    text-align: center
+    font-size: 17px
+    line-height: 21px
+    color: #FFFFFF
+    opacity: 0.4
+    margin-top: 31px
+  .main_kitchenKnives
+    .main_firsType
+      background-image: url("../assets/mainImg/Group1.png")
+      width: 42px
+      height: 46px
+      margin: 0 auto
+      opacity: 0.4
+  .main_foldingKnives
+    .main_secondType
+      background-image: url("../assets/mainImg/Group2.png")
+      width: 54px
+      height: 46px
+      margin: 0 auto
+      opacity: 0.4
+  .main_knifeSharpener
+    .main_thirdType
+      background-image: url("../assets/mainImg/Group3.png")
+      width: 46px
+      height: 46px
+      margin: 0 auto
+      background-size: cover
+  .main_kitchenAccessories
+    .main_fourthType
+      background-image: url("../assets/mainImg/Group4.png")
+      width: 46px
+      height: 46px
+      margin: 0 auto
+      opacity: 0.4
+
+.main_wrapperOfTypes
+  div:hover
+    cursor: pointer
+  div:hover p
+    cursor: pointer
+    color: red
+    opacity: 100%
+
+
+@media (max-width: 768px)
+  .main_wrapperOfTypes
+    grid-template-columns: repeat(4,142px)
+    max-width: 580px
+    .main_knifeSharpener
+      .main_thirdType:hover
+        background-image: url("../assets/mainImg/Group3hover.png")
+        background-size: contain
+        background-repeat: no-repeat
+    .main_kitchenKnives
+      .main_firsType:hover
+        background-image: url("../assets/mainImg/Group1hover.png")
+        opacity: 1
+    .main_foldingKnives
+      .main_secondType:hover
+        background-image: url("../assets/mainImg/Group2hover.png")
+        opacity: 1
+    .main_kitchenAccessories
+      .main_fourthType:hover
+        background-image: url("../assets/mainImg/Group4hover.png")
+        opacity: 1
+
+@media (max-width: 580px)
+  .main_wrapperOfTypes
+    display: none
