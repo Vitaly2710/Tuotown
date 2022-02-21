@@ -8,8 +8,8 @@ import Main from "./Components/Main/main";
 export default function App() {
         return (
         <div className={'app'}>
-           {/* <Header/>*/}
-           {/*<Swiperr/>*/}
+            <Header/>
+           <Swiperr/>
             <Main/>
         </div>
     );
