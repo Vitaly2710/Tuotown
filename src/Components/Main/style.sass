@@ -283,11 +283,13 @@ $colorHover: '#FF0000'
   .main_containerForKnifes
     max-width: 630px
     margin: 0 auto
+    padding-bottom: 360px
     .main_informationPartOne
       grid-template-columns: 300px 300px
       padding-top: 60px
       .main_imageInPartOne
         height: 302px
+        background-repeat: no-repeat
       .main_textInPartOne
         max-width: 300px
         margin-top: 78px
@@ -296,12 +298,120 @@ $colorHover: '#FF0000'
           color: #ADACAC
     .main_informationPartTwo
       grid-template-columns: 300px 300px
+      position: relative
       .main_imageInPartTwo
         background-image: url("../assets/mainImg/Rectangle 77.png")
         height: 302px
       .main_textInPartTwo
+        display: grid
         p
           color: #ADACAC
+        h2
+          order: 0
+          margin-top: 0px
+          font-size: 24px
+          line-height: 28px
+        .main_feature
+            order: 2
+            position: absolute
+            max-width: 300px
+            font-size: 14px
+            line-height: 140%
+            bottom: -60%
+            right: 0%
+            .main_selling
+              font-size: 14px
+              line-height: 140%
+              margin-top: 25px
+        .main_beauty
+            order: 1
+            font-size: 14px
+            line-height: 140%
+            margin-top: 25px
+            .main_throughout
+              font-size: 14px
+              line-height: 140%
+              margin-top: 25px
+.main_allInterestingAbout
+  margin-top: 60px
+  padding-left: 5px
+  padding-right: 5px
+.main_containerAllInteresting
+  max-width: 1200px
+  margin: 0 auto
+  .main_headingInAll
+    font-family: 'Jura',Medium
+    font-size: 35px
+    line-height: 41px
+    color: #FFFFFF
+    font-weight: 500
+  .main_cardsInInteresting
+    margin-top: 37px
+    display: grid
+    grid-template-columns: repeat(3, 380px)
+    justify-content: space-between
+    grid-gap: 28px
+    .main_blockInInteresting
+      height: 465px
+      border-radius: 14px
+      position: relative
+      display: flex
+      justify-content: flex-end
+    .main_blockInInteresting:before
+      content: ""
+      position: absolute
+      background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+      opacity: 0.6
+      top: 0
+      left: 0
+      right: 0
+      bottom: 0
+      border-radius: 14px
+    .main_blockInInteresting:first-child
+      background-image: url("../assets/mainImg/interestingOne.png")
+    .main_blockInInteresting:last-child
+      background-image: url("../assets/mainImg/interestingTwo.png")
+    .main_blockInInteresting:nth-child(2)
+      background-image: url("../assets/mainImg/interestingthree.png")
+    .main_dataInInteresting
+      font-family: 'Montserrat',Regular
+      font-size: 14px
+      line-height: 28px
+      color: #FFFFFF
+    .main_textInInteresting
+      position: absolute
+      bottom: 0%
+      font-family: 'Montserrat',Medium
+      font-weight: 500
+      font-size: 17px
+      line-height: 24px
+      color: #FFFFFF
+      max-width: 320px
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 768px)
   .main_wrapperOfTypes
