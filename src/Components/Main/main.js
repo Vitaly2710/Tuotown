@@ -1,6 +1,7 @@
 import React from "react";
 import './style.sass'
 import { AiOutlineRight } from 'react-icons/ai'
+import LittleComponent from "./littleComponent";
 
 const Main = () => {
 
@@ -31,90 +32,14 @@ const Main = () => {
                         <div className={'main_collectionOfTuoTown'}>
                             <p>Познакомьтесь с коллекцией ножей TUOTOWN</p>
                         </div>
-                        <div className={'main_blockOfKnife'}>
-                            <div className={'main_blockWithPlusAndImg'}>
-                                <p className={'main_addInBasket'}>
-                                    <div/>
-                                    <div className={'basket'}/>
-                                </p>
-                                <div className={'main_imgSq01-b'}>
-                                </div>
-                            </div>
-                            <p className={'main_nameKnife'}>
-                                Складной нож SQ01-B
-                            </p>
-                            <div className={'main_priceOfKnives'}>
-                                <p>850 p.</p>
-                                <div>Новинка</div>
-                            </div>
-                        </div>
-                        <div className={'main_blockOfKnife'}>
-                            <div className={'main_blockWithPlusAndImg'}>
-                                <p className={'main_addInBasket'}>
-                                    <div/>
-                                    <div className={'basket'}/>
-                                </p>
-                                <div className={'main_imgJj001-TUO-B'}>
-                                </div>
-                            </div>
-                            <p className={'main_nameKnife'}>
-                                Складной нож JJ001-TUO-B
-                            </p>
-                            <div className={'main_priceOfKnives'}>
-                                <p>12 850 p.</p>
-                            </div>
-                        </div>
-                        <div className={'main_blockOfKnife'}>
-                            <div className={'main_blockWithPlusAndImg'}>
-                                <p className={'main_addInBasket'}>
-                                    <div/>
-                                    <div className={'basket'}/>
-                                </p>
-                                <div className={'main_imgSq01-b'}>
-                                </div>
-                            </div>
-                            <p className={'main_nameKnife'}>
-                                Складной нож SQ01-B
-                            </p>
-                            <div className={'main_priceOfKnives'}>
-                                <p>850 p.</p>
-                            </div>
-                        </div>
-                        <div className={'main_blockOfKnife'}>
-                            <div className={'main_blockWithPlusAndImg'}>
-                                <p className={'main_addInBasket'}>
-                                    <div/>
-                                    <div className={'basket'}/>
-                                </p>
-                                <div className={'main_imgJj001-TUO-B'}>
-                                </div>
-                            </div>
-                            <p className={'main_nameKnife'}>
-                                Складной нож JJ001-TUO-B
-                            </p>
-                            <div className={'main_priceOfKnives'}>
-                                <p>12 850 p.</p>
-                            </div>
-                        </div>
+                        <LittleComponent name = 'Складной нож SQ01-B' price = '850 р' img = 'main_imgSq01-b' _new = 'новинка'/>
+                        <LittleComponent name = 'Складной нож JJ001-TUO-B' price = '12 850 р.' img = 'main_imgJj001-TUO-B' />
+                        <LittleComponent name = 'Складной нож SQ01-B' price = '850 р' img = 'main_imgSq01-b' />
+                        <LittleComponent name = 'Складной нож JJ001-TUO-B' price = '12 850 р.' img = 'main_imgJj001-TUO-B' />
                         <div className={'main_instagram'}>
 
                         </div>
-                        <div className={'main_blockOfKnife'}>
-                            <div className={'main_blockWithPlusAndImg'}>
-                                <p className={'main_addInBasket'}>
-                                    <div/>
-                                    <div className={'basket'}/>
-                                </p>
-                                <div className={'main_imgJj001-TUO-B'}>
-                                </div>
-                            </div>
-                            <p className={'main_nameKnife'}>
-                                Складной нож JJ001-TUO-B
-                            </p>
-                            <div className={'main_priceOfKnives'}>
-                                <p>12 850 p.</p>
-                            </div>
-                        </div>
+                        <LittleComponent name = 'Складной нож JJ001-TUO-B' price = '12 850 р.' img = 'main_imgJj001-TUO-B' />
                     </div>
                     <h3 className={'main_mailConnection'}>
                         Узнавайте первым о новинках и новостях
@@ -126,71 +51,10 @@ const Main = () => {
                         </button>
                     </div>
                     <div className={'main_goods'}>
-                        <div className={'main_blockOfKnife'}>
-                            <div className={'main_blockWithPlusAndImg'}>
-                                <p className={'main_addInBasket'}>
-                                    <div/>
-                                    <div className={'basket'}/>
-                                </p>
-                                <div className={'main_imgSq01-b'}>
-                                </div>
-                            </div>
-                            <p className={'main_nameKnife'}>
-                                Складной нож SQ01-B
-                            </p>
-                            <div className={'main_priceOfKnives'}>
-                                <p>850 p.</p>
-                            </div>
-                        </div>
-                        <div className={'main_blockOfKnife'}>
-                            <div className={'main_blockWithPlusAndImg'}>
-                                <p className={'main_addInBasket'}>
-                                    <div/>
-                                    <div className={'basket'}/>
-                                </p>
-                                <div className={'main_imgJj001-TUO-B'}>
-                                </div>
-                            </div>
-                            <p className={'main_nameKnife'}>
-                                Складной нож JJ001-TUO-B
-                            </p>
-                            <div className={'main_priceOfKnives'}>
-                                <p>12 850 p.</p>
-                            </div>
-                        </div>
-                        <div className={'main_blockOfKnife'}>
-                            <div className={'main_blockWithPlusAndImg'}>
-                                <p className={'main_addInBasket'}>
-                                    <div/>
-                                    <div className={'basket'}/>
-                                </p>
-                                <div className={'main_imgSq01-b'}>
-                                </div>
-                            </div>
-                            <p className={'main_nameKnife'}>
-                                Складной нож SQ01-B
-                            </p>
-                            <div className={'main_priceOfKnives'}>
-                                <p>850 p.</p>
-                                <div>Новинка</div>
-                            </div>
-                        </div>
-                        <div className={'main_blockOfKnife'}>
-                            <div className={'main_blockWithPlusAndImg'}>
-                                <p className={'main_addInBasket'}>
-                                    <div/>
-                                    <div className={'basket'}/>
-                                </p>
-                                <div className={'main_imgJj001-TUO-B'}>
-                                </div>
-                            </div>
-                            <p className={'main_nameKnife'}>
-                                Складной нож JJ001-TUO-B
-                            </p>
-                            <div className={'main_priceOfKnives'}>
-                                <p>12 850 p.</p>
-                            </div>
-                        </div>
+                        <LittleComponent name = 'Складной нож SQ01-B' price = '850 р' img = 'main_imgSq01-b' />
+                        <LittleComponent name = 'Складной нож JJ001-TUO-B' price = '12 850 р.' img = 'main_imgJj001-TUO-B'  />
+                        <LittleComponent name = 'Складной нож SQ01-B' price = '850 р' img = 'main_imgSq01-b' _new = 'новинка' />
+                        <LittleComponent name = 'Складной нож JJ001-TUO-B' price = '12 850 р.' img = 'main_imgJj001-TUO-B' />
                     </div>
                 </div>
                 <div className={'main_line'}/>
@@ -200,74 +64,11 @@ const Main = () => {
                         <button className={'popular'}>Популярное</button>
                     </div>
                     <div className={'main_goods'}>
-                        <div className={'main_blockOfKnife'}>
-                            <div className={'main_blockWithPlusAndImg'}>
-                                <p className={'main_addInBasket'}>
-                                    <div/>
-                                    <div className={'basket'}/>
-                                </p>
-                                <div className={'main_imgSq01-b'}>
-                                </div>
-                            </div>
-                            <p className={'main_nameKnife'}>
-                                Складной нож SQ01-B
-                            </p>
-                            <div className={'main_priceOfKnives'}>
-                                <p>850 p.</p>
-                                <div>Новинка</div>
-                            </div>
-                        </div>
-                        <div className={'main_blockOfKnife'}>
-                            <div className={'main_blockWithPlusAndImg'}>
-                                <p className={'main_addInBasket'}>
-                                    <div/>
-                                    <div className={'basket'}/>
-                                </p>
-                                <div className={'main_imgJj001-TUO-B'}>
-                                </div>
-                            </div>
-                            <p className={'main_nameKnife'}>
-                                Складной нож JJ001-TUO-B
-                            </p>
-                            <div className={'main_priceOfKnives'}>
-                                <p>12 850 p.</p>
-                                <div>Новинка</div>
-                            </div>
-                        </div>
-                        <div className={'main_blockOfKnife'}>
-                            <div className={'main_blockWithPlusAndImg'}>
-                                <p className={'main_addInBasket'}>
-                                    <div/>
-                                    <div className={'basket'}/>
-                                </p>
-                                <div className={'main_imgSq01-b'}>
-                                </div>
-                            </div>
-                            <p className={'main_nameKnife'}>
-                                Складной нож SQ01-B
-                            </p>
-                            <div className={'main_priceOfKnives'}>
-                                <p>850 p.</p>
-                                <div>Новинка</div>
-                            </div>
-                        </div>
-                        <div className={'main_blockOfKnife'}>
-                            <div className={'main_blockWithPlusAndImg'}>
-                                <p className={'main_addInBasket'}>
-                                    <div/>
-                                    <div className={'basket'}/>
-                                </p>
-                                <div className={'main_imgJj001-TUO-B'}>
-                                </div>
-                            </div>
-                            <p className={'main_nameKnife'}>
-                                Складной нож JJ001-TUO-B
-                            </p>
-                            <div className={'main_priceOfKnives'}>
-                                <p>12 850 p.</p>
-                                <div>Новинка</div>
-                            </div>
-                        </div>
+                        <LittleComponent name = 'Складной нож SQ01-B' price = '850 р' img = 'main_imgSq01-b' _new = 'новинка'/>
+                        <LittleComponent name = 'Складной нож JJ001-TUO-B' price = '12 850 р.' img = 'main_imgJj001-TUO-B' _new = 'новинка'/>
+                        <LittleComponent name = 'Складной нож SQ01-B' price = '850 р' img = 'main_imgSq01-b' _new = 'новинка'/>
+                        <LittleComponent name = 'Складной нож JJ001-TUO-B' price = '12 850 р.' img = 'main_imgJj001-TUO-B' _new = 'новинка'/>
+
                     </div>
                 </div>
                 <div className={'main_line'}/>
